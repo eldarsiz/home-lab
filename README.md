@@ -12,8 +12,8 @@ VLANs and network security. Built while studying for CompTIA Network+.
 - **Result:** LAN 192.168.1.1/24, WAN 10.0.2.15/24, internet
   reachable (ping to 8.8.8.8 works)
 
-![Console menu](screenshots/01-opnsense-console.png)
-![WAN ping test](screenshots/02-ping-test.png)
+![Console menu](Screenshots/01-opnsense-console.png)
+![WAN ping test](Screenshots/02-ping-test.png)
 
 ### What I learned
 - Why OPNsense needs two interfaces (WAN and LAN)

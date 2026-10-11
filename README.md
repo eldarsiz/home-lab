@@ -20,11 +20,6 @@ VLANs and network security. Built while studying for CompTIA Network+.
 - How internal networks isolate VMs in VirtualBox
 - Why snapshots help before changing a firewall
 
-- ## Roadmap
-- [ ] Lab 2: client VM and web interface
-- [ ] Lab 3: VLANs and firewall rules
-- [ ] Lab 4: VPN and monitoring
-
 ## Lab 2: Client VM and web interface (done)
 
 - **Client:** Linux Mint in VirtualBox on the internal network `lan1`
@@ -43,5 +38,7 @@ VLANs and network security. Built while studying for CompTIA Network+.
 - How to test connectivity step by step (client, firewall, internet)
 
 ## Roadmap
+- [x] Lab 1: OPNsense firewall
+- [x] Lab 2: client VM and web interface
 - [ ] Lab 3: VLANs and firewall rules
 - [ ] Lab 4: VPN and monitoring

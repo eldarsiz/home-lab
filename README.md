@@ -20,7 +20,28 @@ VLANs and network security. Built while studying for CompTIA Network+.
 - How internal networks isolate VMs in VirtualBox
 - Why snapshots help before changing a firewall
 
-## Roadmap
+- ## Roadmap
 - [ ] Lab 2: client VM and web interface
+- [ ] Lab 3: VLANs and firewall rules
+- [ ] Lab 4: VPN and monitoring
+
+## Lab 2: Client VM and web interface (done)
+
+- **Client:** Linux Mint in VirtualBox on the internal network `lan1`
+- **Result:** the client receives 192.168.1.x from the OPNsense
+  DHCP server, reaches the firewall at 192.168.1.1, and reaches the
+  internet only through OPNsense
+- **Setup wizard:** hostname `opnsense-lab`, domain `home.lab`,
+  DNS 1.1.1.1 and 9.9.9.9, timezone Europe/Brussels
+
+![OPNsense dashboard](Screenshots/03-opnsense-dashboard.png)
+![Client connectivity](Screenshots/04-client-connectivity.png)
+
+### What I learned
+- How a DHCP server on the LAN side hands out addresses
+- Why the WAN needs "Block private networks" off in a NAT lab
+- How to test connectivity step by step (client, firewall, internet)
+
+## Roadmap
 - [ ] Lab 3: VLANs and firewall rules
 - [ ] Lab 4: VPN and monitoring
